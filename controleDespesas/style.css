@@ -101,6 +101,11 @@ input[type='number'] {
     width: 100%;
 }
 
+.btn:hover {
+    background-color: #2e1d83;
+    transition: 0.3s;
+}
+
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
