@@ -118,8 +118,8 @@ input[type='number'] {
 }
 
 .transactions li {
-    background-color: #fff
-    var(--box-shadow);
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
     color: #333;
     display: flex;
     justify-content: space-between;
