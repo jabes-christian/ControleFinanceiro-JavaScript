@@ -7,7 +7,7 @@ const inputTransactionName = document.querySelector('#text')
 const inputTransactionAmount = document.querySelector('#amount')
 
 const localStorageTransactions = JSON.parse(localStorage
-    .getItem('trasactions'))
+    .getItem('transactions'))
 let transactions = localStorage
     .getItem('transactions') !== null ? localStorageTransactions : []
 
